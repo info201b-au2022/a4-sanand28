@@ -1,6 +1,6 @@
 ---
 title: "Your A4 Report Title (TODO: Revise title)"
-author: "Your Name"
+author: "Shruti Anand"
 date: '2022-11-01'
 output: html_document
 ---
@@ -11,7 +11,23 @@ source("../source/analysis.R")
 ```
 
 ## Abstract 
-[TODO: Include a short abstract (about 50 words)]
+
+While preparing for this project and doing some background research on incarceration especially in the US
+and its effects, I learned a lot. In particular, I learned a lot about how incarceration deeply affects families
+and creates a cycle of negative consequences rather than creating a positive change in society and families
+of those who are incarcerated. Some particular effects I had read about is how increasing jail populations is not
+only becoming a moral concern, but that of a health concern. As populations drastically increase and the main issue
+that incarceration attempted to solve is not going away anytime soon, the health of those who are held in jails
+is continually deteriorating which is very worrying especially now. 
+
+In terms of stakeholders, I felt that the people who are incarcerated and placed in jails, and the families
+of those incarcerated would be the primary stakeholders. They are most affected by drastically increasing incarceration rates and the many issues that are continuing to arise with the increase of incarceration rates
+nationwide. 
+
+For this project I planned on focusing on the increase or decrease in the total populations of people
+that go to jail yearly and from that broad idea, I planned on narrowing it to states in the Pacific 
+Northwest, namely California, Washington, and Oregon to name a few. 
+
 
 # Test (TODO: Remove before submission!!)
 ```{r echo=FALSE}
@@ -38,6 +54,10 @@ print(sum)
 
 ## Data Summary 
 [TODO]
+
+```{r}
+head(incarceration_df)
+```
 
 [TODO ... other sections ... See Canvas for details]
 
